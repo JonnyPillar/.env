@@ -1,4 +1,6 @@
-export ZSH=/Users/itjp1/.oh-my-zsh
+export ZSH=/Users/jonnypillar/.oh-my-zsh
+
+ssh-add $HOME/.ssh/river_island_github
 
 ZSH_THEME="robbyrussell"
 
@@ -7,7 +9,8 @@ plugins=(git battery git-extras git-flow github ssh-agent sublime sudo thefuck d
 source $ZSH/oh-my-zsh.sh
 
 export EDITOR=$(which nano)
-export GOPATH=/Users/itjp1/go
+
+export GOPATH=/Users/jonnypillar/go
 export GOBIN="${GOPATH}/bin"
 export PATH=$PATH:$GOPATH/bin:$PATH
 
