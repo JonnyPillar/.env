@@ -1,7 +1,5 @@
 export ZSH=/Users/jonnypillar/.oh-my-zsh
 
-ssh-add $HOME/.ssh/river_island_github
-
 ZSH_THEME="robbyrussell"
 
 plugins=(git battery git-extras git-flow github ssh-agent sublime sudo thefuck docker)
